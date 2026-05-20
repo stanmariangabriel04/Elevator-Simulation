@@ -31,7 +31,6 @@ void setup() {
   lcd.begin(16, 2);
   Serial.begin(9600);
 
-  // Setăm starea inițială hardware
   digitalWrite(PIN_LED_ETAJ1, HIGH);
   digitalWrite(PIN_LED_ETAJ2, LOW);
   updateDisplay("Liftul e la etajul", currentFloor);
